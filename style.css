@@ -119,7 +119,7 @@ h1.heading {
 }
 #spin:after {
   content:"";
-  animation: spin 20s linear infinite;
+  animation: spin 30s linear infinite;
 }
 @keyframes spin {
   0% { content:"Welcome"; }
@@ -132,4 +132,5 @@ h1.heading {
   70% { content: "Kalibu Mukwayi"; }
   80% { content: "Mwatambulwa"; }
   90% { content: "Shikeni Mwane"; }
+  100% { content: "Mwaiseni Mukwayi"; }
 }
