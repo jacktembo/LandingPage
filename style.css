@@ -112,3 +112,24 @@ h1.heading {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
+
+#spin {
+  color:dodgerblue;
+}
+#spin:after {
+  content:"";
+  animation: spin 20s linear infinite;
+}
+@keyframes spin {
+  0% { content:"Welcome"; }
+  10% { content:"Mwatambulwa"; }
+  20% { content:"Takulandilani"; }
+  30% { content:"Mwaiseni Mukwayi"; }
+  40% { content:"Lwamuhamu Wela"; }
+  50% { content: "Mwayiyayi Mwane"; }
+  60% { content: "Shikeni Mwane"; }
+  70% { content: "Kalibu Mukwayi"; }
+  80% { content: "Mwatambulwa"; }
+  90% { content: "Shikeni Mwane"; }
+}
