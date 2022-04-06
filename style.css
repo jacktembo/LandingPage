@@ -115,7 +115,7 @@ h1.heading {
 
 
 #spin {
-  color:dodgerblue;
+  color: rgb(241, 60, 172);
 }
 #spin:after {
   content:"";
